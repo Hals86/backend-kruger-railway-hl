@@ -3,7 +3,7 @@ import { saveUser, getAllUsers, sendWelcomeEmail, deleteUser } from "../controll
 
 const router = express.Router();
 
-router.get("/all", getAllUsers);
+router.get("/all-users", getAllUsers);
 
 router.post("/", saveUser);
 
